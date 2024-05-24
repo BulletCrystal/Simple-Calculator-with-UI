@@ -3,7 +3,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title('Calculator v2.0')
 window.resizable(False,False)
-window.iconbitmap(r'C:\Users\ABDELAZIZ\Downloads\Graphicloads-100-Flat-2-Calculator.256.ico')
+#window.iconbitmap(r'C:\Users\User\file\example.ico') add an icon to the app (Optional)
 window.geometry('290x450+700+130')
 window.config(background='gray',highlightthickness=5,highlightcolor='brown')
 window.wm_attributes('-topmost',1)
